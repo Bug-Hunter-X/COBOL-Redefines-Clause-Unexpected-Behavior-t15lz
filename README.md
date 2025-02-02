@@ -1,0 +1,1 @@
+This example demonstrates a subtle issue in COBOL related to the use of the REDEFINES clause. The program initializes a numeric field within a redefined area, but when displaying the entire redefined area, the result might be unexpected due to how COBOL handles different data types within a storage area. The solution illustrates how to handle this to ensure the expected output.
